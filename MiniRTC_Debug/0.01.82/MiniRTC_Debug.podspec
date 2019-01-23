@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
 
   s.ios.deployment_target = "9.0"
-  s.source       = { :http => "https://artifactory.ess-dev.com/artifactory/gradle-dev-local/com/nexmo/ios/MiniRTC/0.01.82/MiniRTC-0.01.82-iOS-Debug.zip" }
+  s.source       = { :http => "https://clientsdk.nexmocdn.com/ios/MiniRTC/0.01.82/MiniRTC-0.01.82-iOS-Debug.zip" }
 
   s.vendored_frameworks = ['iOSFramework.framework']
 

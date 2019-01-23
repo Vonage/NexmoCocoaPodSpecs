@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "WebRTC.framework"
 
-   s.source = { :http => "https://artifactory.ess-dev.com/artifactory/gradle-dev-local/com/nexmo/ios/webrtc/62.12.14/webrtc-62.12.14.zip" }
+   s.source = { :http => "https://clientsdk.nexmocdn.com/ios/webrtc/62.12.14/webrtc-62.12.14.zip" }
 end
